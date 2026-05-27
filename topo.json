@@ -24,8 +24,8 @@
       "maxzoom": 12
     }
   },
-  "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
-  "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+  "sprite": "https://sprites.gpx.studio/ofm_f384/ofm",
+  "glyphs": "https://fonts.gpx.studio/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
