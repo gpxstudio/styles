@@ -1,4 +1,4 @@
-This repository contains experimental styles for gpx.studio, created by adapting the Liberty style from [OpenFreeMap Styles](github.com/hyperknot/openfreemap-styles).
+This repository contains experimental styles for gpx.studio, created by adapting the Liberty style from [OpenFreeMap Styles](https://github.com/hyperknot/openfreemap-styles).
 
 ### License
 
