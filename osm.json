@@ -14421,7 +14421,17 @@
           ]
         ],
         "text-anchor": "bottom",
-        "text-field": "{name:en}",
+        "text-field": [
+          "coalesce",
+          [
+            "get",
+            "name:en"
+          ],
+          [
+            "get",
+            "name"
+          ]
+        ],
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -14491,7 +14501,17 @@
             "rank"
           ]
         ],
-        "text-field": "{name:en}",
+        "text-field": [
+          "coalesce",
+          [
+            "get",
+            "name:en"
+          ],
+          [
+            "get",
+            "name"
+          ]
+        ],
         "text-font": [
           "Noto Sans Bold"
         ],
