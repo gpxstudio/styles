@@ -1,6 +1,8 @@
 This repository contains experimental styles for gpx.studio:
 - a Liberty Topo style created by adding topographic features to the Liberty style from [OpenFreeMap Styles](https://github.com/hyperknot/openfreemap-styles), with some layers taken from [osm-liberty-topo](https://github.com/nst-guide/osm-liberty-topo)
-- the OSM OpenMapTiles style from [OpenMapTiles](https://github.com/openmaptiles/openmaptiles), and a version with contour lines and hillshading
+- a Liberty Satellite style obtained by removing most of the fill layers, adding transparency and inverting text colors for better contrast
+- the OSM OpenMapTiles style from [OpenMapTiles](https://github.com/openmaptiles/openmaptiles)
+- an OSM Topo style creatd by adding contour lines and hillshading
 
 ### License
 
