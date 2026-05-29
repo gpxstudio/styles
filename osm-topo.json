@@ -10919,6 +10919,62 @@
       }
     },
     {
+      "id": "contours_label_m",
+      "type": "symbol",
+      "source": "contours_m",
+      "source-layer": "contours_m",
+      "filter": [
+        "any",
+        ["all", ["<=", ["zoom"], 11], ["==", ["%", ["get", "ele"], 500], 0]],
+        ["all", ["==", ["zoom"], 12], ["==", ["%", ["get", "ele"], 250], 0]],
+        ["all", ["==", ["zoom"], 13], ["==", ["%", ["get", "ele"], 100], 0]],
+        ["all", [">=", ["zoom"], 14], ["==", ["%", ["get", "ele"], 50], 0]]
+      ],
+      "layout": {
+        "text-size": ["interpolate", ["linear"], ["zoom"], 11, 6, 18, 10],
+        "text-allow-overlap": false,
+        "symbol-avoid-edges": true,
+        "text-ignore-placement": false,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-field": "{ele}m",
+        "text-padding": 0
+      },
+      "paint": {
+        "text-color": "#5c5c5c",
+        "text-halo-color": "rgba(255,255,255,0.85)",
+        "text-halo-width": 1.25
+      }
+    },
+    {
+      "id": "contours_label_ft",
+      "type": "symbol",
+      "source": "contours_ft",
+      "source-layer": "contours_ft",
+      "filter": [
+        "any",
+        ["all", ["<=", ["zoom"], 11], ["==", ["%", ["get", "ele"], 2000], 0]],
+        ["all", ["==", ["zoom"], 12], ["==", ["%", ["get", "ele"], 1000], 0]],
+        ["all", ["==", ["zoom"], 13], ["==", ["%", ["get", "ele"], 400], 0]],
+        ["all", [">=", ["zoom"], 14], ["==", ["%", ["get", "ele"], 200], 0]]
+      ],
+      "layout": {
+        "text-size": ["interpolate", ["linear"], ["zoom"], 11, 6, 18, 10],
+        "text-allow-overlap": false,
+        "symbol-avoid-edges": true,
+        "text-ignore-placement": false,
+        "symbol-placement": "line",
+        "text-rotation-alignment": "map",
+        "text-field": "{ele}ft",
+        "text-padding": 0
+      },
+      "paint": {
+        "text-color": "#5c5c5c",
+        "text-halo-color": "rgba(255,255,255,0.85)",
+        "text-halo-width": 1.25
+      }
+    },
+    {
       "id": "River labels",
       "type": "symbol",
       "metadata": {},
