@@ -9,21 +9,15 @@
     },
     "hillshading": {
       "type": "vector",
-      "tiles": ["https://tiles.gpx.studio/hillshading/{z}/{x}/{y}.mvt"],
-      "minzoom": 4,
-      "maxzoom": 12
+      "url": "https://tiles.gpx.studio/hillshading.json"
     },
     "contours_m": {
       "type": "vector",
-      "tiles": ["https://tiles.gpx.studio/contours_m/{z}/{x}/{y}.mvt"],
-      "minzoom": 11,
-      "maxzoom": 12
+      "url": "https://tiles.gpx.studio/contours_m.json"
     },
     "contours_ft": {
       "type": "vector",
-      "tiles": ["https://tiles.gpx.studio/contours_ft/{z}/{x}/{y}.mvt"],
-      "minzoom": 11,
-      "maxzoom": 12
+      "url": "https://tiles.gpx.studio/contours_ft.json"
     },
     "attribution": {
       "attribution": "<a href=\"https://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
